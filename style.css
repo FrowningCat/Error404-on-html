@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+.sh1
+{
+    font-family: 'Monoton', cursive;
+    text-shadow:0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    font-size:100px;
+    color:white;
+}
+body
+{
+    background-color:black;
+}
+.sh2
+{
+    font-family: 'Monoton', cursive;
+    text-shadow:0 0 50px deeppink;
+    font-size:100px;
+    color:red;
+}
+.zero
+{
+    text-shadow: none;
+    color:darkred;
+    font-size:100px;
+    font-family: 'Monoton', cursive;
+}
+@keyframes migalka
+{
+    0%
+    {
+        font-family: 'Monoton', cursive;
+        text-shadow:0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+        font-size:100px;
+        color:white;
+    }
+    24%
+    {
+        font-family: 'Monoton', cursive;
+        text-shadow:0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+        font-size:100px;
+        color:white;
+    }
+    25%
+    {
+        font-family: 'Monoton', cursive;
+        text-shadow:none;
+        font-size:100px;
+        color:darkgray; 
+    }
+    49%
+    {
+        font-family: 'Monoton', cursive;
+        text-shadow:none;
+        font-size:100px;
+        color:darkgray;  
+    }
+    50%
+    {
+        font-family: 'Monoton', cursive;
+        text-shadow:0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+        font-size:100px;
+        color:white;
+    } 
+}
+.anim1
+{
+    animation: migalka 3s infinite;
+}
