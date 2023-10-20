@@ -1,69 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 
-.sh1
-{
+.text {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+}
+.sh1 {
     font-family: 'Monoton', cursive;
-    text-shadow:0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
-    font-size:100px;
-    color:white;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen,
+        -17px -17px 17px lightseagreen;
+    font-size: 100px;
+    color: white;
 }
-body
-{
-    background-color:black;
+body {
+    background-color: black;
 }
-.sh2
-{
+.sh2 {
     font-family: 'Monoton', cursive;
-    text-shadow:0 0 50px deeppink;
-    font-size:100px;
-    color:red;
+    text-shadow: 0 0 50px deeppink;
+    font-size: 100px;
+    color: red;
 }
-.zero
-{
+.zero {
     text-shadow: none;
-    color:darkred;
-    font-size:100px;
+    color: darkred;
+    font-size: 100px;
     font-family: 'Monoton', cursive;
 }
-@keyframes migalka
-{
-    0%
-    {
+@keyframes migalka {
+    0% {
         font-family: 'Monoton', cursive;
-        text-shadow:0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
-        font-size:100px;
-        color:white;
+        text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen,
+            -17px -17px 17px lightseagreen;
+        font-size: 100px;
+        color: white;
     }
-    24%
-    {
+    24% {
         font-family: 'Monoton', cursive;
-        text-shadow:0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
-        font-size:100px;
-        color:white;
+        text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen,
+            -17px -17px 17px lightseagreen;
+        font-size: 100px;
+        color: white;
     }
-    25%
-    {
+    25% {
         font-family: 'Monoton', cursive;
-        text-shadow:none;
-        font-size:100px;
-        color:darkgray; 
+        text-shadow: none;
+        font-size: 100px;
+        color: darkgray;
     }
-    49%
-    {
+    49% {
         font-family: 'Monoton', cursive;
-        text-shadow:none;
-        font-size:100px;
-        color:darkgray;  
+        text-shadow: none;
+        font-size: 100px;
+        color: darkgray;
     }
-    50%
-    {
+    50% {
         font-family: 'Monoton', cursive;
-        text-shadow:0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
-        font-size:100px;
-        color:white;
-    } 
+        text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen,
+            -17px -17px 17px lightseagreen;
+        font-size: 100px;
+        color: white;
+    }
 }
-.anim1
-{
+.anim1 {
     animation: migalka 3s infinite;
 }
